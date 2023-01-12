@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-
+import HelloWorldComponent from './Components/HelloWorldComponent';
+import Person from './Components/Person';
 function App() {
   return (
     <div className="App">
      <h2>Welcome To React</h2>
-     <p> <i> Now we r learning react...</i></p>
+     <HelloWorldComponent />
+     <Person/>
+     <Person/>
     </div>
   );
 }
